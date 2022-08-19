@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}  
+body{
+   font-family: 'Poppins', sans-serif;
+  
+}
+
+.logo{
+    width: 100px;
+    padding-left: 5px;
+    padding-top: 5px;
+    margin: 5px;
+}
+
+.home_logo{
+    display:flex;
+    text-align: center;
+    justify-content: space-between;
+    background: #F8F0E3;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.06);
+    z-index: 999;
+    position: static;
+    top: 0;
+    left: 0;
+}
+.h_logo{
+    font-size: medium;
+    margin-top: 25px;
+    margin-right: 25px;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+    margin-right: 5px;
+}
+#navbar li{
+   list-style: none;
+   padding: 0 15px;
+   position: relative;
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400px;
+    color: black;
+    transition: 0.3s ease;
+}
+
+#navbar li a:hover{
+    color:#00FFFF ;
+}
+#navbar li a:hover,
+#navbar li a.active{
+    color: #00FF00;
+}
+
+#navbar li a:hover::after
+{
+    content: "";
+    width: 50%;
+    height: 3px;
+    background: #FF00FF;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+.offer{
+    display: flex;
+    margin-top:100px;
+    margin-left: 35px;
+    padding:15px;
+}
+    
+span{
+    color: darkgoldenrod;
+}
+.offer_pic{
+    
+    margin-top: -80px;
+}
+.offer_pic img{
+    width: 100%;
+}
+ .offer_1 h4{
+    padding-bottom: 15px;
+ }
+ .offer_1 h1{
+    color: #088178;
+ }
+
+.offer_1 button{
+    background-color: transparent;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    font-size: medium;
+    background-color: #00FF00;
+}
+.offer_1 button a{
+    text-decoration: none;
+    color:rgba(100,1,1,1);
+    background-color: #00FF00;
+    padding:10px;
+    margin: 10px;
+}
+
+.offer_1 button a:hover{
+    background-color: beige;
+    color: #FF00FF;
+}
+
+#feature{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    
+}
+#feature .fe-box{
+    width: 180px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgba(0,0,0, 0.03);
+    border: 1px solid #cce7d0;
+}
+
+.section_1{
+    padding: 40px 80px;
+}
+#feature img{
+    width: 80%;
+}
+
+  #pic {
+  margin-top: -40px;
+}
+
+.fe-box h6{
+    margin-top: 20px;
+    padding: 10px;
+    
+
+}
+#shop{
+    text-decoration: none;
+    background-color: aliceblue;
+}
